@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Derived / large simulation outputs (regenerate with run_soup.py)
+results/*.npy
+results/*.b64
+results/*.log
+
+# OS / editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
